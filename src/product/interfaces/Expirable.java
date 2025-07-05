@@ -1,5 +1,5 @@
 package product.interfaces;
 
-public class Expirable {
-    
+public interface Expirable {
+    boolean isExpired();
 }
