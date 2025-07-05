@@ -14,7 +14,7 @@ public class Main {
         Product scratchCard = new Product("scratch card" , 3 , 20);
         Product milk = new ExpirableProduct("Milk" , 10 , 10 , LocalDate.of(2024 , 12 , 20));
 
-        Customer customer = new Customer("Mohamed", 2500);
+        Customer customer = new Customer("Abdelrhman", 2500);
 
         // Add items to cart
         Cart cart = new Cart();
