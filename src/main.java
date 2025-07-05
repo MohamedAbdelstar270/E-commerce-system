@@ -7,7 +7,7 @@ import service.Service;
 import java.time.LocalDate;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
         // List of available products
         Product tv = new ShippableProduct("TV" , 3 , 1200 , 10.0);
         Product cheese = new ExpiredShippableProduct("cheese" , 3 , 30 , 1.0, LocalDate.of(2024,11,10));
